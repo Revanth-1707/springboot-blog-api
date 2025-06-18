@@ -1,0 +1,77 @@
+
+*.env
+target/
+
+# =========================
+# Maven Build Artifacts
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Maven Wrapper Files
+# =========================
+.mvn/
+mvnw
+mvnw.cmd
+
+# =========================
+# Java Class Files
+# =========================
+*.class
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDEs and Editors
+# =========================
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================
+# OS-Specific
+# =========================
+.DS_Store     # macOS
+Thumbs.db     # Windows
+desktop.ini   # Windows
+
+# =========================
+# Others
+# =========================
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.swp
+*.tmp
+
+# Environment Variables / Secrets
+.env
+*.pem
+*.key
+
